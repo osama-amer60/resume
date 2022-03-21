@@ -1,0 +1,260 @@
+/*global*/
+body{
+background-image: url(../img/Wallpaper.png);
+color: #FFF;
+}
+
+
+/*global*/
+
+/*start navbar*/
+#navbar{
+    overflow: hidden;
+    font-size: 25px;
+    
+}
+#navbar a{
+    color: #FFF;
+}
+#navbar .left{
+    float: left;
+}
+#navbar .left i a{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+#navbar .left i a img{
+    width: 120px;
+    height: 80px;
+}
+#navbar .left i:last-child i{
+    color: #FFF;
+
+}
+#navbar .right{
+    float: right;
+    padding-top: 15px;
+}
+
+#navbar .right ul li{
+    display: inline;
+    padding:0 20px 5px 20px;
+    border: 3px solid #FFF;
+    border-radius:50px;  
+}
+#navbar .right ul li a{
+    text-decoration: none;
+    list-style: none;
+}
+#navbar .right ul li:last-child{
+    margin-right: 150px;
+}
+/*End navbar*/
+
+
+
+/*start head*/
+#head{
+    margin-top:7%;
+    display: inline-block;
+    overflow: hidden;
+}
+#head .left{
+    float: left;
+
+}
+#head .right{
+    float: right;
+}
+#head .left span{
+    font-size: 27px;
+    font-weight: lighter;
+    color: #DDD;
+}
+
+#head .left h1{
+    font-size: 247px;
+    margin: -36px;
+    margin-left: 30px;
+}
+#head .left h2{
+    font-size: 150px;
+    margin-left: 216px;
+}
+#head .right h2{
+    font-size: 73px;
+    font-family: emoji;
+    margin-left: 50px;
+    margin-top: 83px;
+    font-weight: 500;
+    padding-left: 15px;
+    border-left: 6px solid #FFF;
+}
+
+  @media only screen and (max-width: 768px) {
+    #head {
+        padding-top: 100px;
+    }
+    #head .left h1{
+        font-size: 130px;
+        margin: -1px;
+        margin-left: 1px;
+    }
+    #head .left h2{
+        font-size: 90px;
+        margin-left: 90px;
+    }
+    #head .right h2{
+        font-size: 45px;
+        font-family: emoji;
+        margin-left: 1px;
+        margin-top: 1px;
+        font-weight: 100;
+        padding-left: 1px;
+        border-left: 2px solid #FFF;
+    }
+  }
+  @media only screen and (max-width: 992px) and (min-width: 768px) {
+    #head {
+        padding-top: 100px;
+    }
+    #head .left h1{
+        font-size: 150px;
+        margin: -1px;
+        margin-left: 1px;
+    }
+    #head .left h2{
+        font-size: 120px;
+        margin-left: 90px;
+    }
+    #head .right h2{
+        font-size: 55px;
+        font-family: emoji;
+        margin-left: 1px;
+        margin-top: 1px;
+        font-weight: 100;
+        padding-left: 1px;
+        border-left: 2px solid #FFF;
+    }
+  }
+
+
+
+/*End head*/
+
+hr{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #FFF;
+}
+
+/*start under hr*/
+.container .under-hr{
+    margin-bottom: 30px;
+}
+.container .under-hr ul{
+    list-style: none;
+}
+.container .under-hr ul li{
+    display: inline;
+    margin: 0 10px 0 0;
+}
+.container .under-hr ul li a{
+    list-style: none;
+    text-decoration: none;
+    color:#FFF;
+    
+}
+/*end under hr*/
+
+/*start fixed bar*/
+.fixed-bar {
+    position: fixed;
+    top: 35%;
+    right: 5%;
+}
+.fixed-bar ul {
+    text-decoration: none;
+    list-style: none;
+}
+.fixed-bar ul li a i{
+   border: 3px solid #FFF;
+   border-radius: 50%;
+   color:transparent;
+   margin-bottom: 4px; 
+   
+}
+.fixed-bar ul li a i.active{
+    color:#FFF;
+}
+.fixed-bar ul li a i:hover{
+    color: #FFF;
+    
+}
+/*
+.fixed-bar {
+    position: fixed;
+    top: 35%;
+    display: none;
+    
+  
+}
+.fixed-bar ul{
+    list-style: none;
+    text-decoration: none;
+}
+.fixed-bar ul li{
+    
+    margin-bottom: 15px;
+    width: 25px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 50%;
+    
+}
+
+.fixed-bar ul li .tips1{
+
+text-overflow: ellipsis;
+white-space: nowrap;
+cursor: pointer;
+z-index: 999;
+
+width: 50px;
+}
+.fixed-bar ul li:hover{
+    background-color: #FFF;
+}
+@media only screen and (max-width: 768px) {
+  
+    .fixed-bar ul li{
+       display: none;
+   }
+}*/
+  /*End fixed bar*/
+
+
+  /*start How to use our product?*/
+.container #tips1,
+.container #tips2,
+.container #tips3,
+.container #tips4{
+    margin: 400px auto 400px auto;
+    border: 1px solid;
+    border-radius: 18%;
+    padding: 50px 0 50px 0;
+    text-align: center;
+  }
+.container #tips1 ul li,
+.container #tips2 ul li
+,.container #tips3 ul li,
+.container #tips4 ul li{
+      text-decoration: none;
+      list-style: none;
+      margin: 15px;
+  }
+
+  /*end How to use our product?*/

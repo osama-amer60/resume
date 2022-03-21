@@ -1,0 +1,253 @@
+body{
+    padding: 0px;
+    margin:0px ;
+  
+}
+
+/*start header*/
+.header1{
+    background-color: #F5ECDB;
+    height: 550px;
+
+}
+.header{
+    background-color: #F5ECDB;
+    margin-top: 0px;
+    padding: 0px;
+    
+}
+/*start nave bar*/
+.navbar{
+padding-top:15px ;
+}
+.navbar-brand > span{
+    padding: 3px 0px;
+    font-size: 15px;
+    color: #F26200;
+    font-weight: bolder;
+    float: left;
+}
+.navbar-nav .nav-link {
+       font-weight: bold;
+    margin: 5px;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #F26200;
+}
+/*End nave bar*/
+.header1 .textheader{
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.header1 .textheader h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 110px;
+    color:#F26200 ;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+.header1 .textheader span{
+    font-size:17px ;
+    color: black;
+}
+.header1 .textheader button{
+    border-radius: 50%;
+    border:solid 1px  #F26200;
+    background-color: #F26200;  
+    width: 70px;
+    height: 70px;
+    margin-top: 90px;
+}
+/*end header*/
+
+
+/* start the information*/
+.information{
+    padding-top: 110px;
+    margin-bottom: 100px;
+}
+/* end the information*/
+
+/*start Portfolio*/
+.Portfolio h2{
+    font-size: 38px;
+    font-weight: normal;
+    margin-bottom:60px ;
+}
+.Portfolio .row >div {
+    padding: 10px;
+    cursor: pointer;
+}
+.Portfolio .row >div img{
+    width: 100%;
+}
+.Portfolio .row >div > .img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);    
+    border-radius: 50%;
+}
+/*end Portfolio*/
+
+
+/*start Testimonials*/
+.Testimonials{
+    margin-top: 150px;
+}
+.Testimonials .row .col .card{
+    background-color: #F5ECDB;
+    border-radius: 20px;
+    
+}
+.Testimonials .row .col .card .card-header{
+    overflow: hidden;
+    border: none;
+    background-color: #F5ECDB;
+    border-radius: 20px;    
+}
+.Testimonials .row .col .card .card-header .text{
+    float: left;
+}
+.Testimonials .row .col .card .card-header .text> h5{
+    color: #F26200;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 15px;
+}
+.Testimonials .row .col .card .card-header .text >span{
+    color: rgb(143, 140, 140);
+}
+.Testimonials .row .col .card .card-header img{
+    float: right;
+    width: 80px;
+    border-radius: 50%;
+}
+.Testimonials .row .col .card .card-body{
+    text-align: center;
+}
+.Testimonials .row .col .card .card-body p{
+        color: rgb(143, 140, 140);
+}
+/*end Testimonials*/
+
+/*start Blog Updates*/
+.BlogUpdates{
+    background-color: #F5ECDB;
+    margin-top: 90px;
+    height: 900px;
+    
+}
+
+.BlogUpdates h2{
+    padding-top: 70px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+.BlogUpdates span{
+    font-size: 23px;
+}
+.BlogUpdates  #demo  ul li{
+    background-color: #F26200;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.BlogUpdates .slider .carousel-inner .row .col .card{
+    background-color: #F5ECDB;
+    border: none;
+    margin-top: 50px;
+}
+.BlogUpdates .slider .carousel-inner .row .col .card .card-head{
+   border: none;
+   margin-bottom: 20px;
+}
+.BlogUpdates .slider .carousel-inner .row .col .card .cardbody{
+ padding-left: 13px;
+ margin-bottom: 20px;
+}
+.BlogUpdates .slider .carousel-inner .row .col .card .cardbody p{
+    font-size: 27px;
+}
+.BlogUpdates .slider .carousel-inner .row .col .card .cardfooter{
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.BlogUpdates .slider .carousel-inner .row .col .card .cardfooter img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 23px;
+}
+.BlogUpdates .slider .carousel-inner .row .col .card .cardfooter .text{
+    float: right;
+   }
+.BlogUpdates .slider .carousel-inner .row .col .card .cardfooter .text span{
+    font-size: 16px;
+    padding-right: 120px;
+}
+/*end Blog Updates*/
+
+/*start img*/
+.images{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F8F9FA;
+}
+
+/*end img*/
+
+/*staert footer*/
+.footer{
+    padding-top: 10px;
+    padding-top: 120px;
+    background-color: #F5ECDB;
+    height: 700px;
+}
+.footer a{
+    list-style: none;
+    color: black;
+   text-decoration:none ;
+   color: #8f8c8c;
+
+}
+.footer a:hover{
+    color: black;
+    
+}
+.footer .logo{
+    color: #F26200;
+    font-weight: bold;
+    font-size: 17px;
+}
+.footer p{
+    margin-top: 20px;
+    color: rgb(143, 140, 140);
+}
+.footer .social{
+    color: #F26200;
+    font-size: 17px;
+    text-align: center;
+    margin-top:150px ;
+    margin-bottom: 40px;
+}
+.footer .social i{
+    padding: 13px;
+    cursor: pointer;
+}
+.footer .textfooter{
+    text-align: center;
+    color: #8f8c8c;
+    
+}
+.footer .textfooter a{
+    color: #F26200;
+}
+
+/*end footer*/
