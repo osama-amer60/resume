@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/1626172036680-01.jpeg") top center;
+  background: url("../img/web.jpg") top center;
   background-size: cover;
 }
 
@@ -224,6 +224,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 1;
+  background: rgba(0, 0, 0, 0.3); 
 }
 
 #hero .hero-container {
@@ -306,6 +307,17 @@ section {
   background: #149ddd;
   bottom: 0;
   left: 0;
+}
+.section-title.about-section h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .section-title p {
