@@ -1103,3 +1103,8 @@ section {
     padding-right: 20px 15px;
   }
 }
+@media (max-width: 991px) {
+  .contact .google-map {
+    margin: 15px;
+  }
+}
