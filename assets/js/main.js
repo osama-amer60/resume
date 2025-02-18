@@ -196,7 +196,7 @@
         
         const link = $("<a>")
             .attr("href", pdfPath)
-            .attr("download", "Front-End-Web-Developer.pdf")
+            .attr("download", "Front-End Web Developer.pdf")
             .appendTo("body");
 
         link[0].click();
