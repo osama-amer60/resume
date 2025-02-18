@@ -190,4 +190,18 @@
     aos_init();
   });
 
+  $(document).ready(function () {
+    $("#downloadBtn").click(function () {
+        const pdfPath = "assets/Front-End-Web-Developer.pdf";
+        
+        const link = $("<a>")
+            .attr("href", pdfPath)
+            .attr("download", "Front-End-Web-Developer.pdf")
+            .appendTo("body");
+
+        link[0].click();
+        link.remove();
+    });
+});
+
 })(jQuery);
