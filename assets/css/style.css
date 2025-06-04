@@ -109,6 +109,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 36px;
   transition: 0.3s;
 }
+#header .profile .social-links a.google {
+  font-size: 21px;
+}
 
 #header .profile .social-links a:hover {
   background: #149ddd;
@@ -414,7 +417,7 @@ section {
 .skills .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -459,7 +462,7 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "Poppins", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
@@ -522,7 +525,7 @@ section {
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #272829;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
@@ -748,16 +751,24 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact {
-  padding-bottom: 130px;
+  padding-bottom: 70px;
 }
 
 .contact .info {
+  height: 300px;
   padding: 30px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
+
+.contact .google-map {
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  padding: 0;
+}
+
 
 .contact .info i {
   font-size: 20px;
@@ -1090,5 +1101,10 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+@media (max-width: 991px) {
+  .contact .google-map {
+    margin: 15px;
   }
 }
